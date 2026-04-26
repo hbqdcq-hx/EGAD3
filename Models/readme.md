@@ -4,6 +4,7 @@
    '''bash
    conda env create -f environment.yml
    '''
+   
 4. Download the model [CheckPoints](https://pan.baidu.com/s/1vIzeGLIzwnYkR9O2_d7Zxw?pwd=a199)
 5. Configure the CheckPoints path
 Modify the CheckPoints address in the original model code to the actual path where you placed the downloaded CheckPoints.
@@ -17,3 +18,4 @@ Modify the data address in the original model code to the actual path where you 
    '''bash
    bash test.sh
    '''
+   
