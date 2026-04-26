@@ -1,10 +1,9 @@
 ## Download and install the models
 1. Download [models](https://pan.baidu.com/s/1jD-PZu3gvb8zIxJVzQ2aJg?pwd=xahj) code
 2. Set up the running environment for each model
-   '''bash
+   ```
    conda env create -f environment.yml
-   '''
-   
+   ```
 4. Download the model [CheckPoints](https://pan.baidu.com/s/1vIzeGLIzwnYkR9O2_d7Zxw?pwd=a199)
 5. Configure the CheckPoints path
 Modify the CheckPoints address in the original model code to the actual path where you placed the downloaded CheckPoints.
@@ -15,7 +14,6 @@ Modify the CheckPoints address in the original model code to the actual path whe
 7. Configure the dataset path
 Modify the data address in the original model code to the actual path where you placed the downloaded datasets.
 8. Run the experiment to reproduce results
-   '''bash
+   ```
    bash test.sh
-   '''
-   
+   ```
