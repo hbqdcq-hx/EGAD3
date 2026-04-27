@@ -1,5 +1,5 @@
 ## Download and install the models
-1. Download [models](https://pan.baidu.com/s/1jD-PZu3gvb8zIxJVzQ2aJg?pwd=xahj) code
+1. Download models code
 2. Set up the running environment for each model
    ```
    conda env create -f environment.yml
