@@ -33,8 +33,8 @@
    Compare with random selection strategies and validate the stability of the framework using the Spearman correlation coefficient.
    <!-- 两张图片并排 -->
 <div style="display: flex; gap: 20px; align-items: center;">
-    <img src="./IMG/Images_Compare.jpg" style="width: 48%;" alt="R">
-    <img src="./IMG/MAE_Distance.jpg" style="width: 48%;" alt="differences">
+    <img src="./IMG/Spearman_random.jpg" style="width: 48%;" alt="random">
+    <img src="./IMG/Spearman_top10.jpg" style="width: 48%;" alt="top10">
 </div>
 
 
