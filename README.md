@@ -7,7 +7,7 @@
 ## 2. Quantify Model Discrepancy
    2.1. Download and deploy the models in the Models folder to obtain prediction scores for each image.  
    2.2. Calculate pairwise model discrepancies on **R** using the Maximum Discrepancy Competition (MDC).  
-   2.3. Select the top 10 samples with the largest differences from each category to form the stress test set \(\mathcal{D}\), then compute the MAE between \(\mathcal{D}\) and MVTec AD.  
+   2.3. Select the top 10 samples with the largest differences from each category to form the stress test set $\mathcal{D}$, then compute the MAE between $\mathcal{D}$ and MVTec AD.  
          ![Discrepancy](./IMG/MAE_Distance.jpg)
 ## 3. Compute Global Ranking
    3.1. Obtain the pairwise result matrix **P**.  
