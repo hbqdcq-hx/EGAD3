@@ -10,9 +10,9 @@ import seaborn as sns
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DEFAULT_INPUT_CSV = BASE_DIR / "pairwise_results_1_mae_matrix.csv"
-DEFAULT_OUTPUT_PDF = BASE_DIR /  "pairwise_results_1_mae_heatmap.pdf"
-DEFAULT_OUTPUT_CSV = BASE_DIR /  "pairwise_results_1_mae_ratio_matrix.csv"
+DEFAULT_INPUT_CSV = BASE_DIR / "pairwise_results_10_mae_matrix.csv"
+DEFAULT_OUTPUT_PDF = BASE_DIR /  "pairwise_results_10_mae_heatmap.pdf"
+DEFAULT_OUTPUT_CSV = BASE_DIR /  "pairwise_results_10_mae_ratio_matrix.csv"
 
 
 def parse_args() -> argparse.Namespace:
