@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-比较 data 目录下模型之间的预测分数差异
+比较R目录下模型之间的预测分数差异
 按类别找出前两百个差异最大的图片名字，并用两个模型名称命名输出文件
 """
 
@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 # 数据目录
-DATA_ROOT = Path("data")
+DATA_ROOT = Path("R")
 
 # 所有类别
 CATEGORIES = [
