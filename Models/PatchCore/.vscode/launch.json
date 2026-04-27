@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PatchCore",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/load_and_evaluate_patchcore.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "src",
+                "CUDA_VISIBLE_DEVICES": "7"
+            },
+            "args": [
+                "--gpu", "0",
+                "--seed", "0",
+                "evaluated_results/IM320_Ensemble_L2-3_P001_D1024-384_PS-3_AN-1",
+                "patch_core_loader",
+                "-p", "${workspaceFolder}/models/IM320_Ensemble_L2-3_P001_D1024-384_PS-3_AN-1/models/mvtec_hazelnut",
+                "--faiss_on_gpu",
+                "dataset",
+                "--resize", "366",
+                "--imagesize", "320",
+                "-d", "hazelnut",
+                "mvtec",
+                "/mnt/T38/bioinf/xjj/Datasets/MVTec-AD"
+            ],
+            "python": "/mnt/T19/anaconda3/envs/PatchCore_env/bin/python",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        }
+    ]
+}

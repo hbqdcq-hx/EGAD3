@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MSFLOW",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py", 
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "2"  
+            },
+            "args": [
+                "--mode", "test",
+                "--class-name", "transistor",
+                "--eval_ckpt", "/mnt/T38/bioinf/xjj/CheckPoints/msflow_CP/msflow_wide_resnet50_2_avgpool_pl258/mvtec/transistor/best_det.pt"
+            ]
+        }
+    ]
+}

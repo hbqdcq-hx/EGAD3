@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python eval_heatmap.py --gpu_id 0 --num_workers 16

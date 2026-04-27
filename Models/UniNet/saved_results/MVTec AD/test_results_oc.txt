@@ -1,0 +1,21 @@
+MVTec AD单类测试结果
+测试类别: ['carpet', 'grid', 'leather', 'tile', 'wood', 'bottle', 'cable', 'capsule', 'hazelnut', 'metal_nut', 'pill', 'screw', 'toothbrush', 'transistor', 'zipper']
+==================================================
+| 类别         |   图像级AUROC |
+|:-----------|-----------:|
+| carpet     |     100    |
+| grid       |     100    |
+| leather    |     100    |
+| tile       |      99.4  |
+| wood       |      99.7  |
+| bottle     |     100    |
+| cable      |      99.6  |
+| capsule    |      98.8  |
+| hazelnut   |     100    |
+| metal_nut  |     100    |
+| pill       |      98    |
+| screw      |      97.7  |
+| toothbrush |      97.5  |
+| transistor |     100    |
+| zipper     |      97.1  |
+| mean       |      99.19 |

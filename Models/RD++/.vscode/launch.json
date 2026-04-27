@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RRD",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "inference_numpy.py",
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "2"
+            },
+            "args": [
+                "--checkpoint_folder", "/mnt/T38/bioinf/xjj/CheckPoints/RD++_CP",
+                "--classes", "grid"
+            ],
+            "python": "/mnt/T19/anaconda3/envs/RRD_env/bin/python"
+        }
+    ]
+}

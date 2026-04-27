@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DSR",
+            "type": "python",
+            "request": "launch",
+            "program": "test_dsr_numpy.py",
+            "args": [
+                "2",
+                "/mnt/T4_2/xjj/FirstWorkData1/",
+                "DSR"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "/mnt/T19/anaconda3/envs/DSR_env/bin/python"
+        },
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

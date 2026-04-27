@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "InversionAD",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.evaluate",
+            "console": "integratedTerminal",
+            "python": "/mnt/T19/anaconda3/envs/Invad_env/bin/python",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0",
+                "PYTHONPATH": "."
+            },
+            "args": [
+                "--eval_strategy", "inversion",
+                "--save_dir", "results/exp_dit_ad",
+                "--use_best_model",
+                "--eval_step", "3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "URD",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test_numpy.py",
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "3"
+            },
+            "python": "/mnt/T19/anaconda3/envs/URD_env/bin/python"
+        }
+    ]
+}

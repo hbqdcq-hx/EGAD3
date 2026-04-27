@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DeCo-Diff",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "evaluation_DeCo_Diff.py",
+            "args": [
+                "--dataset", "mvtec",
+                "--data-dir", "/mnt/T38/bioinf/xjj/Datasets/good_dataset",
+                "--model-size", "UNet_L",
+                "--object-category", "all",
+                "--anomaly-class", "all",
+                "--image-size", "288",
+                "--center-size", "256",
+                "--center-crop", "True",
+                "--model-path", "/mnt/T38/bioinf/xjj/CheckPoints/DeCo-Diff_CP/MVTEC-AD-model.pt"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "2"
+            },
+            "python": "/mnt/T19/anaconda3/envs/DeCo-Diff_env/bin/python",
+            "justMyCode": false
+        }
+    ]
+}

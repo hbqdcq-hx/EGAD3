@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "UniNet(oc)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test_mvtec_oc.py",
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "3"
+            },
+            "python": "/mnt/T19/anaconda3/envs/UniNet_env/bin/python"
+        }
+    ]
+}

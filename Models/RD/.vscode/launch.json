@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RD4AD",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "2"
+            },
+            "python": "/mnt/T19/anaconda3/envs/RD4AD_env/bin/python"
+        }
+    ]
+}

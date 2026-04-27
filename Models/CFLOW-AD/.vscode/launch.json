@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CFLOW-AD",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "/mnt/T19/anaconda3/envs/CFLOW-AD_env/bin/python3",
+            "program": "${workspaceFolder}/main.py",
+            "args": [
+                "--gpu", "2",
+                "--pro",
+                "-enc", "wide_resnet50_2",
+                "--dataset", "mvtec",
+                "--action-type", "norm-test",
+                "-inp", "512",
+                "--class-name", "toothbrush",
+                "--checkpoint", "/mnt/T38/bioinf/xjj/CheckPoints/cflow-ad_CP/WRes50/mvtec_wide_resnet50_2_freia-cflow_pl3_cb8_inp512_run0_toothbrush.pt"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONUNBUFFERED": "1",
+                "CONDA_DEFAULT_ENV": "CFLOW-AD_env",
+                "PATH": "/mnt/T19/anaconda3/envs/CFLOW-AD_env/bin:${env:PATH}"
+            }
+        }
+    ]
+}

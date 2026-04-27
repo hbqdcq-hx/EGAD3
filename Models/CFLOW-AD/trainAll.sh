@@ -1,0 +1,15 @@
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name bottle
+python3 main.py --gpu 2 --pro -inp 256 --dataset mvtec --class-name cable
+python3 main.py --gpu 2 --pro -inp 256 --dataset mvtec --class-name capsule
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name carpet
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name grid
+python3 main.py --gpu 2 --pro -inp 256 --dataset mvtec --class-name hazelnut
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name leather
+python3 main.py --gpu 2 --pro -inp 256 --dataset mvtec --class-name metal_nut
+python3 main.py --gpu 2 --pro -inp 256 --dataset mvtec --class-name pill
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name screw
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name tile
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name toothbrush
+python3 main.py --gpu 2 --pro -inp 128 --dataset mvtec --class-name transistor
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name wood
+python3 main.py --gpu 2 --pro -inp 512 --dataset mvtec --class-name zipper
