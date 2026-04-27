@@ -11,9 +11,9 @@ from openpyxl.styles import Font
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DEFAULT_DATA_DIR = BASE_DIR / "pairwise_results_1"
+DEFAULT_DATA_DIR = BASE_DIR / "pairwise_results_10"
 DEFAULT_LABEL_DIR = BASE_DIR / "label"
-DEFAULT_OUTPUT_DIR = BASE_DIR / "pairwise_results_1_mae"
+DEFAULT_OUTPUT_DIR = BASE_DIR / "pairwise_results_10_mae"
 
 LABEL_FILE_MAP = {
 	"bottle": "bottle_label.csv",
