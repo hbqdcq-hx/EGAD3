@@ -42,6 +42,22 @@
 
 | ![random](./IMG/Spearman_random.jpg) | ![top10](./IMG/Spearman_top10.jpg) |
 |---|---|
+## Acknowledgement
+We would like to express our gratitude for the great contributions from the following repositories:
+- [CFLOW-AD](https://github.com/gudovskiy/cflow-ad)
+- [MSFlow](https://github.com/cool-xuan/msflow)
+- [SimpleNet](https://github.com/donaldrr/simplenet)
+- [CoMet-SN](https://github.com/aqeeelmirza/CoMet)
+- [DeSTSeg](https://github.com/apple/ml-destseg)
+- [RD](https://github.com/hq-deng/RD4AD)
+- [DeCo-Diff](https://github.com/farzad-bz/DeCo-Diff)
+- [Dinomaly](https://github.com/guojiajeremy/dinomaly)
+- [URD](https://github.com/hito2448/urd)
+- [PatchCore](https://github.com/amazon-science/patchcore-inspection)
+- [InvAD](https://github.com/SkyShunsuke/InversionAD)
+- [RD++](https://github.com/tientrandinh/revisiting-reverse-distillation)
+- [UniNet](https://github.com/pangdatangtt/UniNet)
+- [DSR](https://github.com/VitjanZ/DSR_anomaly_detection)
 
 
 
