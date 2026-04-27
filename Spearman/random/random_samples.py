@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""从标签文件中按类别随机抽样，并基于 data_score 计算 MAE。
-
-输出一个 Excel 文件：
-- 每个模型一个 sheet
-- 每个 sheet 包含类别、名称、标签、分数、MAE、跨模型平均 MAE
-- 文件名使用随机种子命名，保证结果可复现
-"""
 
 from __future__ import annotations
 
