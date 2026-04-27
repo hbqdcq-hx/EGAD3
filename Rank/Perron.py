@@ -8,8 +8,8 @@ import pandas as pd
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DEFAULT_INPUT_CSV = BASE_DIR / "pairwise_results_50_mae_ratio_matrix.csv"
-DEFAULT_OUTPUT_CSV = BASE_DIR / "perron_ranking_50.csv"
+DEFAULT_INPUT_CSV = BASE_DIR / "pairwise_results_10_mae_ratio_matrix.csv"
+DEFAULT_OUTPUT_CSV = BASE_DIR / "perron_ranking_10.csv"
 
 
 def parse_args() -> argparse.Namespace:
