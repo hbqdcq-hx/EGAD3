@@ -13,7 +13,7 @@
    3.1. Obtain the pairwise result matrix **P**.  
    3.2. Calculate the pairwise performance matrix **F**.  
    3.3. Use the Perron rank method to compute the global ranking of the models.  
-    | Models    | MAE   | MAE Rank | Global Rank | $\Delta$ Rank |
+| Models    | MAE   | MAE Rank | Global Rank | $\Delta$ Rank |
 |-----------|-------|----------|-------------|---------------|
 | DeSTSeg   | 0.161 | 1        | 13          | -12           |
 | MSFlow    | 0.165 | 2        | 14          | -12           |
