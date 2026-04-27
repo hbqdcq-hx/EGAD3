@@ -36,8 +36,12 @@
     <img src="./IMG/Spearman_random.jpg" style="width: 48%;" alt="random">
     <img src="./IMG/Spearman_top10.jpg" style="width: 48%;" alt="top10">
 </div>
--->  
+
 <img src="./IMG/Spearman_random.jpg" width="48%" /> <img src="./IMG/Spearman_top10.jpg" width="48%" />
+-->  
+
+| ![random](./IMG/Spearman_random.jpg) | ![top10](./IMG/Spearman_top10.jpg) |
+|---|---|
 
 
 
