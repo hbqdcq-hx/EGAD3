@@ -37,7 +37,7 @@
     <img src="./IMG/Spearman_top10.jpg" style="width: 48%;" alt="top10">
 </div>
 -->  
-<img src="./IMG/random.png" width="48%" /> <img src="./IMG/top10.png" width="48%" />
+<img src="./IMG/Spearman_random.jpg" width="48%" /> <img src="./IMG/Spearman_top10.jpg" width="48%" />
 
 
 
